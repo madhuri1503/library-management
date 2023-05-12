@@ -14,7 +14,6 @@ The program is implemented using Python and consists of several classes and func
 3. The "load_books()" method reads the book data from a CSV file (e.g., "books.csv") and creates Book objects to store in the 'Library' instance.
 
 4. The "display_books()" method shows a formatted list of all available books, including their ID, title, author, publisher, quantity, and price.
-
 5.The "book_exists()" method checks if a book with a given ID exists in the library.
 
 6. The "rent_book()" method allows a customer to rent a book by providing its ID. 
