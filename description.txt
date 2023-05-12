@@ -1,4 +1,5 @@
-The library management project aims to create a program that facilitates the management of a library by allowing managers and customers to perform various tasks. The project is implemented in Python and provides a console-based interface for interaction.
+The library management project aims to create a program that facilitates the management of a library by allowing managers and customers to perform various tasks.
+The project is implemented in Python and provides a console-based interface for interaction.
 
 Key features of the library management system include:
 
@@ -6,15 +7,11 @@ Key features of the library management system include:
 
 --> Login and signup: Managers can log in using their credentials or sign up for a new    account.
 
-
 --> Add books: Managers can add new books to the library by providing details such as ID, title, author, publisher, quantity, and price.
-
 
 --> Remove books: Managers can remove books from the library based on their ID.
 
-
 --> Update book details: Managers can modify the details of existing books, such as the title, author, publisher, quantity, or price.
-
 
 --> Generate invoices: Managers can generate invoices for customers, which include details of rented books and the total cost.
 
@@ -23,17 +20,15 @@ Key features of the library management system include:
 
 --> View books: Customers can view the available books in the library, including their details such as ID, title, author, publisher, quantity, and price.
 
-
 --> Check book availability: Customers can check the availability of a specific book by providing its ID.
 
-
 --> Rent books: Customers can rent books by selecting them based on their ID. The quantity of the book is decreased, and the rented books are stored.
-
 
 --> Pay bill: Customers can pay the bill for the rented books. The program calculates the total cost based on the rented books and generates an invoice.
 
 
-The program utilizes a CSV file ("books.csv") to store and retrieve book data. It includes classes such as Book and Library to manage book-related operations. The main() function serves as the entry point, handling user login, presenting menu options, and calling the respective methods based on user choices.
+The program utilizes a CSV file ("books.csv") to store and retrieve book data. It includes classes such as Book and Library to manage book-related operations.
+The main() function serves as the entry point, handling user login, presenting menu options, and calling the respective methods based on user choices.
 
 
 This project provides a basic implementation of a library management system, and additional functionalities and error handling can be incorporated based on specific requirements.
