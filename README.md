@@ -15,8 +15,7 @@ The program is implemented using Python and consists of several classes and func
 
 4. The "display_books()" method shows a formatted list of all available books, including their ID, title, author, publisher, quantity, and price.
 
-
- 5.The "book_exists()" method checks if a book with a given ID exists in the library.
+5.The "book_exists()" method checks if a book with a given ID exists in the library.
 
 6. The "rent_book()" method allows a customer to rent a book by providing its ID. 
    If the book is available, its quantity is decreased by 1, and the Book object is returned. If the book is not available, 'None' is returned.
